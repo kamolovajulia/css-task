@@ -1,0 +1,167 @@
+main {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EFF6FF;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+}
+section {
+    display: flex;
+}
+h1 {
+    font-size: 22px;
+    color: #3A5665;
+    font-family: 'Barlow Regular';
+}
+div.left {
+    padding: 0% 0% 0% 0%;
+    width: 48%;
+    /*background-image: url("img/bg.jpg");
+    background-size: cover;*/
+    /*vertical-align: top;*/
+}
+div.left img {
+    height: 100%;
+    width: 100%;
+}
+div.right {
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+    display: block;
+    width: 40%;
+    background-color:white;
+    vertical-align: top;
+}
+p {
+    margin-top: 4%;
+    margin-bottom: 7%;
+    color: #A3AEB3;
+    font-family: Barlow;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    float: left;
+    width: 45%;
+    background-color: #255B9B;
+    border-color: #255B9B;
+    color: white;
+    padding: 2%;
+}
+.button2 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-around;
+    align-items:center;
+    width: 45%;
+    background-color: #0076B6;
+    border-color: #0076B6;
+    color: white;
+    padding: 2%;
+}
+.button_create {
+    margin-top: 15%;
+    background-color:#3698FB;
+    border-color:#3698FB;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 45%;
+    color: white;
+    padding: 2%;
+}
+.Facebook {
+    width: 10%;
+}
+.Facebook span {
+    
+    width: 50%;
+}
+.LinkedIn {
+    width: 10%;   
+}
+.LinkedIn span {
+    width: 35%;  
+}
+.info {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+input.info_email {
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2%;
+}
+.info_phone {
+    float: right;
+    width: 45%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2%;
+}
+div.investor h1 {
+    margin-top: 27%;
+}
+.switch {
+    display: flex;
+    justify-content: space-between;
+}
+.switch>input:active+label::before{
+    background-color: white;
+    border-color: blue;
+} 
+input.agreement {
+    margin-top: 25%;
+}
+div.registration {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.registration .OR {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 70%;
+    color: #929292;
+}
+div.registration .line {
+    border-bottom: 1px solid #E8E8E8;
+    width: 30%;
+}
+.agreement label {
+    font-size: 5px;
+}
+/*section {
+    display: table;
+    text-align: center;
+   
+}
+div.left {
+    display: table-cell;
+    vertical-align: middle;
+
+    float: left;
+    width: 50%;
+    background-image: url("img/bg.jpg");
+}
+div.logo {
+    background-image: url("img/logo.svg");   
+    background-position: left top;
+}
+div.right {
+    background-color:white;
+    float: right;
+    width: 50%;
+    
+}*/
